@@ -2,7 +2,7 @@ import Header from './components/Header/Header'
 import List from './components/List/List'
 import Map from './components/Map/Map'
 import { CssBaseline, Grid } from '@material-ui/core'
-import { getPlacesData } from './api'
+import { getPlacesData } from './api/data'
 import { useEffect, useState } from 'react'
 function App() {
   const [places, setPlaces] = useState([]);
